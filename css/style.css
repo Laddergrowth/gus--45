@@ -328,7 +328,7 @@ button:focus{
 
 .about-section-box{
 	padding: 70px 0px;
-	background: #ffffff url(http://placeholder.pics/svg/1920x1000/ABA18E/C6CAFF-9DFFA1/AboutCSS) no-repeat bottom center;
+	background: #ffffff url(../images/produtos/about-3.png) no-repeat bottom center;
 	background-size: cover;
 }
 .about-section-box .img-fluid{
@@ -367,7 +367,7 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/qt-bg.jpg) no-repeat;
+	background: url(../images/produtos/qt-bg.jpg) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
@@ -576,6 +576,55 @@ button:focus{
 
 
 /*------------------------------------------------------------------
+    Banner info
+-------------------------------------------------------------------*/
+
+.contact-banner-box{
+	background: #087904;
+	padding: 30px 0;
+	border-radius: 0px;
+}
+
+
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.contact-banner-box i{
+	display: block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #fff;
+	color: #809b06;
+	font-size: 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	margin-right: 20px;
+}
+.contact-banner-box h4 {
+    margin: 0px;
+    margin-top: 5px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.contact-banner-box p {
+    margin: 0px;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+
+
+/*------------------------------------------------------------------
     Contact info
 -------------------------------------------------------------------*/
 
@@ -584,6 +633,8 @@ button:focus{
 	padding: 30px 0;
 	border-radius: 100px;
 }
+
+
 
 .overflow-hidden {
     overflow: hidden;
